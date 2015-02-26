@@ -1,0 +1,19 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: ACC4-3511
+
+ Directorio de C:\ale\mariana\empleados\src\java\system
+
+02/04/2009  07:02 a.m.    <DIR>          .
+02/04/2009  07:02 a.m.    <DIR>          ..
+02/04/2009  07:02 a.m.                 0 ale.txt
+30/03/2009  08:44 p.m.               213 Comando.java
+30/03/2009  11:24 p.m.             2,182 ComandoActualiza.java
+30/03/2009  10:24 p.m.             1,148 ComandoBusca.java
+30/03/2009  11:02 p.m.             1,078 ComandoElimina.java
+30/03/2009  06:47 p.m.               238 ComandoException.java
+30/03/2009  10:03 p.m.             1,436 ComandoInserta.java
+30/03/2009  09:59 p.m.             1,056 Conexion.java
+31/03/2009  02:41 a.m.             2,340 Controlador.java
+31/03/2009  10:36 a.m.             7,130 Repositorio.java
+              10 archivos         16,821 bytes
+               2 dirs  50,394,705,920 bytes libres

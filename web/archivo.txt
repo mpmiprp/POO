@@ -1,0 +1,71 @@
+Programa para altas, bajas y modificaciones de registros de empleados (Aplicación Web).
+
+Imprimir todos los archivos con extensión jsp
+
+Directorio de C:\ale\mariana\empleados\web
+02/04/2009  06:46 a.m.    <DIR>          .
+02/04/2009  06:46 a.m.    <DIR>          ..
+01/04/2009  11:04 a.m.             5,511 altaempleado.jsp
+30/03/2009  10:10 p.m.             3,052 altaempleadoresponse.jsp
+31/03/2009  10:45 a.m.             3,665 bajaempleado0.jsp
+30/03/2009  10:46 p.m.             2,564 bajaempleado1.jsp
+30/03/2009  11:15 p.m.             2,307 bajaempleado2.jsp
+30/03/2009  09:25 p.m.               355 cp_vacio.jsp
+02/04/2009  06:12 a.m.    <DIR>          images
+30/03/2009  09:18 p.m.             1,042 index.jsp // Programa principal
+31/03/2009  10:41 a.m.               650 inicio.jsp
+02/04/2009  06:12 a.m.    <DIR>          js // Imprimir functs.js
+31/03/2009  02:36 a.m.             1,105 menu.jsp
+02/04/2009  06:12 a.m.    <DIR>          META-INF 
+31/03/2009  10:43 a.m.             5,831 modificacionempleado0.jsp
+31/03/2009  10:24 a.m.             1,881 modificacionempleado1.jsp
+31/03/2009  10:31 a.m.             2,306 modificacionempleado2.jsp
+02/04/2009  06:12 a.m.    <DIR>          styles
+31/03/2009  10:47 a.m.               375 top.jsp
+02/04/2009  06:12 a.m.    <DIR>          WEB-INF // Imprimir archivo WEB  de esta carpeta
+
+
+Imprimir todos los archivos .java de la carpeta src\System  y Empleados.java de beans.
+
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: ACC4-3511
+
+ Directorio de C:\ale\mariana\empleados\src\java\system
+
+02/04/2009  07:02 a.m.    <DIR>          .
+02/04/2009  07:02 a.m.    <DIR>          ..
+02/04/2009  07:02 a.m.                 0 ale.txt
+30/03/2009  08:44 p.m.               213 Comando.java
+30/03/2009  11:24 p.m.             2,182 ComandoActualiza.java
+30/03/2009  10:24 p.m.             1,148 ComandoBusca.java
+30/03/2009  11:02 p.m.             1,078 ComandoElimina.java
+30/03/2009  06:47 p.m.               238 ComandoException.java
+30/03/2009  10:03 p.m.             1,436 ComandoInserta.java
+30/03/2009  09:59 p.m.             1,056 Conexion.java
+31/03/2009  02:41 a.m.             2,340 Controlador.java
+31/03/2009  10:36 a.m.             7,130 Repositorio.java
+              10 archivos         16,821 bytes
+               2 dirs  50,394,705,920 bytes libres
+
+--
+-- Create schema admonempleados
+--
+
+CREATE DATABASE IF NOT EXISTS admonempleados;
+USE admonempleados;
+
+--
+-- Definition of table `empleado`
+--
+
+DROP TABLE IF EXISTS `empleado`;
+CREATE TABLE `empleado` (
+  `idempleado` int(10) unsigned NOT NULL auto_increment,
+  `nombre` varchar(60) NOT NULL,
+  `salario` double NOT NULL,
+  `edad` int(10) unsigned NOT NULL,
+  `telefono` varchar(15) NOT NULL,
+  PRIMARY KEY  (`idempleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ 
